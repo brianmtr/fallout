@@ -1,0 +1,121 @@
+body{
+    margin: 0 auto;
+    font-family: 'Roboto';
+}
+
+img{
+    width: 100%;
+}
+
+.text-header{
+    color: white;
+    position: relative;
+    top: -700px;
+    left: 10%;
+    width: 550px;
+}
+
+.text-header h1{
+    font-size: 120px;
+}
+
+.number{
+    font-weight: lighter ;
+    color: #D4AF37;
+}
+
+.text-header p{
+    font-size: 45px;
+    position: absolute;
+    top: 120px;
+    left:180px;
+}
+
+.bethesda{
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    background-color: #D4AF37;
+    width: 70px;
+    height: 250px;
+    text-align: center;
+    writing-mode: sideways-lr;
+}
+
+.bethesda p{
+    text-orientation: mixed;
+}
+
+.container-text{
+    position: relative;
+    bottom: 150px;
+    font-size: 36px;
+    width: 72%;
+    margin-left: 18%;
+}
+
+.ul-light{
+    font-weight: lighter;
+}
+.mark-yellow{
+    color: #D4AF37;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+.li-margin {
+    margin-left: 35px;
+  }
+
+  .bar{
+      width: 10px;
+      height: 820px;
+      background-color: #D4AF37;
+      margin-left: 12%;
+      position: absolute;
+      top: 1250px;
+      border-radius: 3px;
+  }
+
+  footer {
+    height: 250px;
+    background-color: rgb(26, 26, 26);
+  }
+
+  .container-footer {
+    text-align: center;
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2em;
+    color: #FFF;
+  }
+
+  .fallout-guy {
+    height: 210px;
+    width: 210px;
+  
+    position: absolute;
+    top: -80px;
+    left: 100px;
+  }
+  
+  .fallout-icon {
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    top: -80px;
+    right: 100px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .fallout-icon-text {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-size: 25px;
+    color: black;
+    width: 170px;
+  }
+  
