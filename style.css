@@ -10,7 +10,7 @@ img{
 .text-header{
     color: white;
     position: relative;
-    top: -700px;
+    bottom: 800px;
     left: 10%;
     width: 550px;
 }
@@ -27,19 +27,19 @@ img{
 .text-header p{
     font-size: 45px;
     position: absolute;
-    top: 120px;
-    left:180px;
+    top: 70%;
+    left: 20%;
 }
 
-.bethesda{
+ .text-header .bethesda{
     position: absolute;
-    top: 600px;
-    left: 200px;
+    top: 110%;
     background-color: #D4AF37;
     width: 70px;
-    height: 250px;
+    height: 222px;
     text-align: center;
     writing-mode: sideways-lr;
+    
 }
 
 .bethesda p{
@@ -90,6 +90,7 @@ img{
     font-family: 'Kaushan Script', cursive;
     font-size: 2em;
     color: #FFF;
+    padding-top: 5%;
   }
 
   .fallout-guy {
@@ -97,7 +98,7 @@ img{
     width: 210px;
   
     position: absolute;
-    top: -80px;
+    bottom: 45px;
     left: 100px;
   }
   
@@ -119,3 +120,194 @@ img{
     width: 170px;
   }
   
+  @media screen and (max-width: 1890px){
+    .bethesda{
+        width: 222px;
+        height: 70px;
+        
+    }
+    .bar{
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 1500px) {
+
+      .text-header{
+          margin-top: 20%;
+      }
+  }
+
+  @media screen and (max-width: 1100px) {
+    .text-header p{
+        font-size: 2em;
+        margin-top: 10%;
+    }
+
+    .text-header h1{
+        font-size: 5em;
+    }
+
+    .text-header{
+        margin-top: 40%;
+    }
+  }
+
+  @media screen and (max-width: 840px){
+    .text-header p{
+        font-size: 1.8em;
+        margin-top: 10%;
+    }
+
+    .text-header h1{
+        font-size: 4em;
+    }
+
+    .text-header{
+        margin-top: 50%;
+    }
+    .container-text {
+        margin-top: 200px;
+        position: relative;
+        bottom: 500px;
+        font-size: 1.7rem;
+        text-align: justify;
+    }
+  }
+
+  @media screen and (max-width: 750px){
+    .text-header{
+        margin-top: 65%;
+    }
+
+    .text-header p{
+        font-size: 1.5em;
+        margin-top: 10%;
+        margin-left: -8%;
+    }
+
+    .text-header h1{
+        font-size: 3em;
+        padding-left: 30px;
+    }
+
+    .text-header .bethesda{
+        position: absolute;
+        top: 110%;
+        background-color: #D4AF37;
+        width: 42px;
+        height: 170px;
+        text-align: center;
+        writing-mode: sideways-lr;
+        font-size: 9px;
+    }
+    .container-text {
+        position: relative;
+        bottom: 500px;
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+    .bethesda{
+        writing-mode: horizontal-tb;
+    }
+  }
+
+  @media screen and (max-width: 690px){
+    .text-header{
+        margin-top: 80%;
+        width: 240px;
+    }
+
+    .text-header{
+        margin-top: 80%;
+        width: 250px;
+        
+    }
+
+    .text-header .bethesda{
+        position: absolute;
+        top: 340%;
+        background-color: #D4AF37;
+        width: 119px;
+        height: 42px;
+        text-align: center;
+        writing-mode: horizontal-tb;
+        font-size: 9px;
+        left: 50px;
+    }
+    
+    .container-text {
+        position: relative;
+        bottom: 500px;
+        font-size: 1.7rem;
+        text-align: justify;
+    }
+
+    .fallout-icon {
+            display: none;
+      }
+
+      .fallout-guy{
+            display: none;
+      }
+
+      .container-footer p {
+        position: relative;
+        top: 200px;
+      }
+    }
+
+  @media screen and (max-width: 600px){ 
+    .text-header{
+        margin-top: 100%;
+
+    }
+    .container-text {
+        position: relative;
+        bottom: 500px;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+  }
+
+  @media screen and (max-width: 530px){
+    .text-header{
+        margin-top: 105%;
+    }
+  }
+
+  @media screen and (max-width: 450px){
+    .text-header{
+        margin-top: 130%;
+        font-size: 0.6em;
+    }
+
+    .container-text {
+        position: relative;
+        bottom: 500px;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    
+    footer{
+        height: 300px;
+        
+    }
+
+    section{
+        height: 1200px;
+    }
+
+    .text-header .bethesda{
+        position: absolute;
+        top: 360%;
+        background-color: #D4AF37;
+        width: 100px;
+        height: 25px;
+        text-align: center;
+        writing-mode: horizontal-tb;
+        font-size: 6px;
+        left: 30px;
+    }
+  }
