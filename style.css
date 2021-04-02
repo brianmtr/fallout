@@ -42,6 +42,13 @@ img{
     
 }
 
+.bethesda h2 {
+    font-size: 36px;
+    position: relative;
+    transform: rotate(270deg);
+    top: 110px;
+}
+
 .bethesda p{
     text-orientation: mixed;
 }
